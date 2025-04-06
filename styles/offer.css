@@ -177,4 +177,59 @@
     text-align: center;
 }
 
+/* Round figure */
+.subtitle-1{
+    font-weight: 500px;
+    font-size: 24px;
+    color: #FF0000;
+    padding-bottom: 16px;
+}
+.title-1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    padding-bottom: 16px;
+}
+.title-2{
+    font-weight: bold;
+    font-size: 48px;
+    color: #FF0000;
+    padding-bottom: 16px;
+}
 
+.paragraph{
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.img-1{
+    width: 364px;
+    height: 364px;
+    padding: 49px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+.txt{
+    width:33.33%;
+    height:33.33%;
+}
+.img-1-div{
+    width:33.33%;
+    margin: 49px 200px 49px 80px;
+}
+.logo{
+    margin-top: 43px;
+}
+.txt-2{
+    width:33.33%;
+    height:33.33%;
+}
+.img-txt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1320px;
+    height:463px;
+    margin:  0 auto 120px auto;
+    align-items: center;
+}
