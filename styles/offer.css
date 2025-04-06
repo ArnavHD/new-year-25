@@ -1,4 +1,20 @@
 
+
+.merriweather-merri{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.inter-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
 *{
     margin:0;
     padding: 0;
@@ -70,47 +86,6 @@
     height: 500px;
 }
 
-/* third section */
-/* .sec-banner{
-    background-image: url(../images/Vectorrr.png);
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    width:1320px;
-    height:600px;
-    margin: 120px auto;
-}
-.sec-banner-cont{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-}
-
-.sec-ban-title{
-    color: #FFFFFF;
-    font-size: 64px;
-    font-weight: 900px;
-    margin: 126px 460px 24px 126px;
-}
-.sec-ban-subtitle{
-    font-size: 18px;
-    color: #FFFFFF;
-    margin: 0px 300px 48px 126px;
-}
-.join-para{
-    font-weight: bold;
-    font-size: 20px;
-    color: #FFFFFF;
-    margin-left: 158px;
-
-}
-.sec-bg{
-    width: 319px;
-    height: 464px;
-
-} */
-
 
 /* main second banner */
 .sec-banner{
@@ -143,6 +118,7 @@
     font-weight: bold;
     font-size: 22px;
     color: #FFFFFF;
+    margin-left: 32px;
 }
 .sec-img{
     width:320px;
@@ -155,6 +131,50 @@
     align-items: flex-start;
     padding-left: 126px;
     width:40%;
+}
+
+/* Shade section */
+.shade{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto 120px auto;
+}
+.writing{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+.red{
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF0000;
+}
+.writing-container{
+    margin-bottom: 48px;
+}
+.btn{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    /* text-align: center;
+    align-items: center; */
+}
+.shade-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
