@@ -114,7 +114,8 @@
 
 /* main second banner */
 .sec-banner{
-    background-image: url(../images/Vectorrr.png);
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
