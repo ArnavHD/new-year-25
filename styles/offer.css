@@ -1,0 +1,159 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+#banner{
+    /* background-image: url('../images/Banner\ Image.png'); */
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
+    display:flex;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 1320px;
+    margin: 50px 140px 120px 140px;
+    align-items: center;
+    justify-content:center;
+    border-radius: 16px;
+}
+#banner .banner-content{
+    width:632px;
+    height:246px;
+}
+#banner .banner-content .subtitle{
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#banner .banner-content .title{
+    font-size: 72px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* second section */
+.sec-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:802px;
+    height: 806px;
+    margin: 48px auto 120px auto;
+}
+
+.sec-section .sec-container .offer-title{
+    font-size: 88px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF0000;
+}
+
+.sec-container .offer-subtitle{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500px;
+    text-align: center;
+    /* width:809px;
+    height: 802px; */
+}
+
+.catagory{
+    font-size: 48px;
+    color: #070211;
+    font-weight: bold;
+    text-align: center;
+}
+.offer-pic{
+    padding: 48px;
+    width:802px;
+    height: 500px;
+}
+
+/* third section */
+/* .sec-banner{
+    background-image: url(../images/Vectorrr.png);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:1320px;
+    height:600px;
+    margin: 120px auto;
+}
+.sec-banner-cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.sec-ban-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 900px;
+    margin: 126px 460px 24px 126px;
+}
+.sec-ban-subtitle{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0px 300px 48px 126px;
+}
+.join-para{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 158px;
+
+}
+.sec-bg{
+    width: 319px;
+    height: 464px;
+
+} */
+
+
+/* main second banner */
+.sec-banner{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto 120px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-ban-title{
+    font-weight: 900;
+    font-size: 66px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.sec-ban-subtitle{
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    width: 690px;
+    height: 60px;
+}
+.join{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.sec-img{
+    width:320px;
+    height: 464px;
+    margin:auto;
+}
+.sec-ban-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 126px;
+    width:40%;
+}
+
+
