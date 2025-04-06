@@ -233,3 +233,134 @@
     margin:  0 auto 120px auto;
     align-items: center;
 }
+
+/* holiday deal */
+.subtitl-holi{
+    font-weight: 500;
+    font-size: 24px;
+    color: #070211;
+}
+.title-holi{
+    font-weight: 900;
+    font-size: 72px;
+    color: #070211;
+}
+.title-red{
+    font-weight: 900;
+    font-size: 72px;
+    color: #FF0000;
+}
+.container-1{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:1320px;
+    height:986px;
+    margin: 0 auto 120px auto;
+}
+.wi{
+    margin: 0 126px;
+   
+}
+.pic-container{
+    display: flex;
+    flex-direction:row;
+    
+    
+}
+.img-gift-box{
+    width: 674px;
+    height: 577px;
+    margin: 250px 200px 40px 0px;
+}
+.disc{
+    margin:141px 40px 51px 177px;
+}
+
+/* Portfolio  */
+.port-para{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.title-port{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.sub{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+    width:67%;
+}
+.port-container{
+    display: flex;
+    flex-direction: column;
+    width:1320px;
+    height: 1163px;
+    align-items: start;
+    text-align: start;
+    margin: 0 auto 120px auto;
+}
+.ime-grp{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Subscribe letter */
+.subt{
+    font-size:20px;
+    font-weight: normal;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0 300px 48px 300px;
+}
+.sub-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 0 auto 120px auto;
+}
+.form{
+    height: 72px;
+    width:400px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    margin-right: -4px;
+    font-size: 18px;
+    padding-left: 30px;
+
+}
+.form1{
+    height: 72px;
+    width:210px;
+    margin: 0px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    border-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 0, 1);
+    font-size: 18px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.3);
+    padding-left: 30px;
+    
+}
