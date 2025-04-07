@@ -373,6 +373,8 @@
 }
 hr{
     height: 0;
+    color: #FFFFFF;
+    margin: 1px 133px;
 }
 .main-container{
     background-color: #070211;
@@ -401,17 +403,16 @@ li{
     align-items: center;
     text-align: center;
 }
+.li{
+    margin: 48px 24px ;
+
+}
 .finish{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
-/* .fina-para{
-    margin: 100px 300px 47.5px 133px;
-} */
-/* .fina-cont{
-    margin: 114px 400px 47.5px 180px;
-} */
 .fina-para{
     width: 370.25px;
     height: 76px;
@@ -428,4 +429,7 @@ li{
     margin-top: 114px;
     margin-bottom: 47.5px;
     margin-right: 261.25px;
+}
+.finish-1{
+    margin: 50px 133px 114px 133px;
 }
